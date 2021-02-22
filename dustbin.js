@@ -1,4 +1,4 @@
-class Dustbin
+class dustbin
 {
 	constructor(x,y)
 	{
@@ -57,7 +57,7 @@ class Dustbin
 			fill(255)
 			imageMode(CENTER);
 			image(this.image, 0,-this.dustbinHeight/2,this.dustbinWidth, this.dustbinHeight)
-			
+			//rect(0,0,this.dustbinWidth, this.wallThickness);
 			pop()
 			
 	}
